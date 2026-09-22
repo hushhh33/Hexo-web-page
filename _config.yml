@@ -1,9 +1,9 @@
-# Hexo Configuration
+﻿# Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hushhh的小站
 subtitle: ''
 description: ''
 keywords:
@@ -11,13 +11,13 @@ author: Hushhh
 language: en
 timezone: ''
 
-# 菜单配置
+# 鑿滃崟閰嶇疆
 menu:
-  首页: /
-  归档: /archives/
-  分类: /categories/
-  标签: /tags/
-  关于: /about/
+  棣栭〉: /
+  褰掓。: /archives/
+  鍒嗙被: /categories/
+  鏍囩: /tags/
+  鍏充簬: /about/
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -113,14 +113,15 @@ deploy:
   repo: https://github.com/hushhh33/Hexo-web-page
   branch: branch
 
-# 评论系统设置
+# 璇勮绯荤粺璁剧疆
 comments:
   enable: true
   type: gitalk
   gitalk:
-    clientID: '你的GitHub OAuth App Client ID'
-    clientSecret: '你的GitHub OAuth App Client Secret'
+    clientID: '浣犵殑GitHub OAuth App Client ID'
+    clientSecret: '浣犵殑GitHub OAuth App Client Secret'
     repo: 'Hexo-web-page'
     owner: 'hushhh33'
     admin: ['hushhh33']
     language: 'zh-CN'
+

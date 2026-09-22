@@ -1,0 +1,52 @@
+﻿# Butterfly theme overrides for this site.
+
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于: /about/ || fas fa-user
+
+avatar:
+  img: images/avatar.jpg
+  effect: false
+
+default_top_img: images/site-background.jpg
+index_img: images/site-background.jpg
+archive_img: false
+tag_img: false
+category_img: false
+footer_img: false
+background: images/site-background.jpg
+
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    loop: true
+    typeSpeed: 70
+    backSpeed: 35
+  source: false
+  sub:
+    - "There's a thin line between life and death. You'll find me there."
+    - "The hunt begins."
+    - "This is where it ends."
+
+aside:
+  card_author:
+    button:
+      link: https://github.com/hushhh33
+  card_announcement:
+    enable: true
+    content: 我要读博啦
+
+mask:
+  header: true
+  footer: false
+
+inject:
+  head:
+    - <link rel="stylesheet" href="/Hexo-web-page/css/custom.css">
+
+
+
