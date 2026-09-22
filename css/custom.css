@@ -1,0 +1,16 @@
+#footer,
+#footer:before,
+#page-header.not-top-img {
+  background: transparent !important;
+  background-image: none !important;
+}
+
+body:has(#archive) #web_bg,
+body:has(#category) #web_bg,
+body:has(#tag) #web_bg,
+body:has(.type-about) #web_bg,
+body:has(.type-categories) #web_bg,
+body:has(.type-tags) #web_bg {
+  background: transparent !important;
+  background-image: none !important;
+}
